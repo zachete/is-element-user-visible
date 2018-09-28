@@ -12,5 +12,14 @@
   "bugs": {
     "url": "https://github.com/zachete/is-element-user-visible/issues"
   },
+  "keywords": [
+    "javascript",
+    "js",
+    "vanilla",
+    "DOM",
+    "visible",
+    "viewable",
+    "viewport"
+  ],
   "homepage": "https://github.com/zachete/is-element-user-visible#readme"
 }

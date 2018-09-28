@@ -1,6 +1,6 @@
 {
   "name": "is-element-user-visible",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function, that check if element is visible for user.",
   "main": "index.js",
   "repository": {

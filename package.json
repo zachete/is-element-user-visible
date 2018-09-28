@@ -1,0 +1,16 @@
+{
+  "name": "is-element-user-visible",
+  "version": "1.0.0",
+  "description": "Function, that check if element is visible for user.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachete/is-element-user-visible.git"
+  },
+  "author": "Alexey Emelyanenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachete/is-element-user-visible/issues"
+  },
+  "homepage": "https://github.com/zachete/is-element-user-visible#readme"
+}

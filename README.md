@@ -4,7 +4,7 @@ Function, that check if the element is visible for user.
 It checks for a next conditions:
 * Element is in viewport;
 * Element (or it's parents) is visible by styles values (display, visibility, opacity);
-* Element is visible within the scrollable container.
+* Element is visible within scrollable or hidden container.
 
 ## Install
 ```
@@ -17,12 +17,17 @@ npm install is-element-user-visible
 var isElementUserVisible = require('is-element-user-visible');
 var element = document.getElementById('example');
 
-// basic usage
-console.log(isElementUserVisible(element)); 
+var config = {
+    element: element,
+    parent: element.parentNode,
+    percentage: 50
+};
 
-// at least 80 percent of element is visible (default: 100)
-console.log(isElementUserVisible(element), 80);
+console.log(isElementUserVisible(config));
 ```
+
+## Config
+Coming soon
 
 ## Tests
 Coming soon
